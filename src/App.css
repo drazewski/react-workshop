@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+nav{
+  height: 40px;
+  padding-top: 20px;
+  border-bottom: 2px solid black;
+}
+
+nav a {
+  padding: 5px 20px;
+  margin: 25px 10px 10px;
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: pink;
+}
